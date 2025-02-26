@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smit Bhut | Data Analyst</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Sigmar&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-black text-white">
+
+    <!-- Navigation Bar -->
+    <header class="fixed w-full z-10 top-0 left-0 bg-black bg-opacity-70">
+        <nav class="flex justify-between items-center p-6">
+            <!-- Hamburger Icon -->
+            <div class="lg:hidden flex flex-col space-y-2 cursor-pointer" id="hamburger-icon">
+                <div class="w-8 h-1 bg-white"></div>
+                <div class="w-8 h-1 bg-white"></div>
+                <div class="w-8 h-1 bg-white"></div>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="hidden lg:flex space-x-8 text-lg" id="nav-list">
+                <li><a href="#home" class="hover:text-yellow-500 transition duration-300">Home</a></li>
+                <li><a href="#about" class="hover:text-yellow-500 transition duration-300">About</a></li>
+                <li><a href="#skills" class="hover:text-yellow-500 transition duration-300">Skills</a></li>
+                <li><a href="#portfolio" class="hover:text-yellow-500 transition duration-300">Portfolio</a></li>
+                <li><a href="#resume" class="hover:text-yellow-500 transition duration-300">Resume</a></li>
+                <li><a href="#contact" class="hover:text-yellow-500 transition duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="text-center py-20 bg-cover bg-center" style="background-image: url('https://wallpapercave.com/wp/wp4676574.jpg');">
+        <div class="container mx-auto">
+            <img src="https://wallpapers.com/images/featured/ultra-hd-wazf67lzyh5q7k32.webp" alt="Yagnesh Sabhani" class="rounded-full mx-auto mb-4" />
+            <h1 class="text-5xl font-bold neon-text animate__animated animate__fadeIn">Smit Bhut</h1>
+            <p class="text-xl mt-4 text-gray-400 animate__animated animate__fadeIn animate__delay-1s" style="font-weight: bold; color: bisque;" col>Data Analyst</p>
+            <div class="mt-6">
+                <a href="https://github.com/smitbhut/" target="_blank" class="text-cyan-400 hover:text-yellow-500 mx-3">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/smitbhut/" target="_blank" class="text-cyan-400 hover:text-yellow-500 mx-3">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20 bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1920x1080');" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-cyan-400">About Me</h2>
+            <p class="text-lg text-gray-400 mt-4 max-w-lg mx-auto">I am a 3rd-year Computer Science Engineering student with a strong passion for data analysis. Proficient in Power BI, SQL, Excel, and Python (pandas, matplotlib, numpy, Seaborn), I enjoy transforming raw data into meaningful insights.
+            </p>
+            <p class="text-lg text-gray-400 mt-4 max-w-lg mx-auto">I recently completed an internship as a Business Development Executive (BDE), where I gained experience in market research, client interactions, and data-driven decision-making. This role enhanced my analytical thinking and business acumen, which I now aim to apply in the field of data analysis.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-900" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-cyan-400">Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+                <!-- Skill Cards -->
+                <div class="skill-card bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-cyan-500 transition duration-300" data-aos="zoom-in" data-aos-delay="000">
+                    <h3 class="text-2xl font-bold text-white">Power Bi</h3>
+                    <div class="mt-4">
+                        <div class="h-2 bg-gray-600 rounded-full">
+                            <div class="h-2 bg-yellow-500 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-cyan-500 transition duration-300" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="text-2xl font-bold text-white">SQL</h3>
+                    <div class="mt-4">
+                        <div class="h-2 bg-gray-600 rounded-full">
+                            <div class="h-2 bg-yellow-500 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-cyan-500 transition duration-300" data-aos="zoom-in" data-aos-delay="400">
+                    <h3 class="text-2xl font-bold text-white">Python</h3>
+                    <div class="mt-4">
+                        <div class="h-2 bg-gray-600 rounded-full">
+                            <div class="h-2 bg-yellow-500 rounded-full" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-card bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-cyan-500 transition duration-300" data-aos="zoom-in" data-aos-delay="600">
+                    <h3 class="text-2xl font-bold text-white">Pandas</h3>
+                    <div class="mt-4">
+                        <div class="h-2 bg-gray-600 rounded-full">
+                            <div class="h-2 bg-yellow-500 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-cyan-500 transition duration-300" data-aos="zoom-in" data-aos-delay="800">
+                    <h3 class="text-2xl font-bold text-white">Matplotlib</h3>
+                    <div class="mt-4">
+                        <div class="h-2 bg-gray-600 rounded-full">
+                            <div class="h-2 bg-yellow-500 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-cyan-500 transition duration-300" data-aos="zoom-in" data-aos-delay="1000">
+                    <h3 class="text-2xl font-bold text-white">Excel</h3>
+                    <div class="mt-4">
+                        <div class="h-2 bg-gray-600 rounded-full">
+                            <div class="h-2 bg-yellow-500 rounded-full" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1920x1080');" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-cyan-400 neon-text">My Portfolio</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+                <!-- Project Cards -->
+                <div class="project-card bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-cyan-500 transition duration-300" data-aos="zoom-in">
+                    <h3 class="text-2xl font-bold text-white">Diwali Sales Analysis</h3>
+                    <p class="text-gray-300 mt-4">Built with Python (Exploratory Data Analysis).</p>
+                    <a href="https://github.com/smitbhut/Diwali-Sales-Analyst" class="text-cyan-400 hover:text-yellow-500 mt-4 inline-block">View Project</a>
+                </div>
+
+                <div class="project-card bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-cyan-500 transition duration-300" data-aos="zoom-in" data-aos-delay="200">
+                    <h3 class="text-2xl font-bold text-white">Sales Navigator Dashboard</h3>
+                    <p class="text-gray-300 mt-4">Built with Power Bi.</p>
+                    <a href="https://github.com/smitbhut/Sales-Navigator-Dashboard" class="text-cyan-400 hover:text-yellow-500 mt-4 inline-block">View Project</a>
+                </div>
+
+                <div class="project-card bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-cyan-500 transition duration-300" data-aos="zoom-in" data-aos-delay="400">
+                    <h3 class="text-2xl font-bold text-white">BookStore Database Management System</h3>
+                    <p class="text-gray-300 mt-4">Built with SQL.</p>
+                    <a href="https://github.com/smitbhut/Bookstore-Database-Management-System" class="text-cyan-400 hover:text-yellow-500 mt-4 inline-block">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-20 bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1920x1080');" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-cyan-400 neon-text">Download My Resume</h2>
+            <a href="SmitBhutResume.pdf" download="Smit_Bhut_Resume.pdf" class="mt-6 inline-block py-3 px-6 bg-yellow-500 text-black rounded-md hover:bg-yellow-400 transition duration-300">
+                Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1920x1080');" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-cyan-400">Contact</h2>
+            <!-- <form action="mailto:sabhaniyagnesh1311@gmail.com" method="GET" class="mt-6 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" name="name" placeholder="Your Name" required class="w-full px-4 py-2 rounded-md bg-gray-600 text-white">
+                </div>
+                <div class="mb-4">
+                    <input type="email" name="email" placeholder="Your Email" required class="w-full px-4 py-2 rounded-md bg-gray-600 text-white">
+                </div>
+                <div class="mb-4">
+                    <textarea name="message" placeholder="Your Message" rows="4" required class="w-full px-4 py-2 rounded-md bg-gray-600 text-white"></textarea>
+                </div>
+                <button type="submit" class="w-full py-3 bg-yellow-500 text-black font-semibold rounded-md shadow-lg hover:bg-yellow-400 transition duration-300">Send Message</button>
+            </form> -->
+            <div class="email">
+                <a href="mailto:smitbhut.work@gmail.com" style="font-size: x-large; color: #D1D5DB; font-weight: 500;"><pre style="color: #FFD700; display: inline-block; font-weight: bold;">Email:</pre> smitbhut.work@gmail.com</a>
+            </div>
+            <div class="tel">
+                <a href="tel:+91 9104296778" style="font-size: x-large; color: #D1D5DB; font-weight: 500;"><pre class="contact" style="color: #FFD700; font-weight: bold;">Contact No:</pre>(+91)9104296778</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>© 2025 Smit Bhut | All Rights Reserved</p>
+    </footer>
+
+    <!-- AOS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        // Hamburger menu toggle functionality
+        const hamburgerIcon = document.getElementById('hamburger-icon');
+        const navList = document.getElementById('nav-list');
+        hamburgerIcon.addEventListener('click', () => {
+            navList.classList.toggle('hidden');
+        });
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll("a[href^='#']").forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const targetId = this.getAttribute("href").substring(1);
+                const targetElement = document.getElementById(targetId);
+                window.scrollTo({
+                    top: targetElement.offsetTop - 70, // Adjust scroll position
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
